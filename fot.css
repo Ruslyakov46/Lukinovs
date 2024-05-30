@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header {
+        background-image: url(fi/photo_2024-05-30_17-31-53.jpg);
+        background-size: 100% 500px  ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        color: #1acc09;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    nav {
+    background-color:  #333;
+    color: #6e09f3;
+    text-align: center;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline;
+    padding: 10px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    footer {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;}
